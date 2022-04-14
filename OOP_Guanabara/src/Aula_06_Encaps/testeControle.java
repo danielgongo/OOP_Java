@@ -8,6 +8,7 @@ public class testeControle {
 		
 		c.ligar();
 		c.maisVolume();
+		c.ligarMudo();
 		c.play();
 		c.abrirMenu();
 		c.fecharMenu();

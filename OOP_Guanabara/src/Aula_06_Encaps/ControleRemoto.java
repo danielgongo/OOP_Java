@@ -1,12 +1,12 @@
 package Aula_06_Encaps;
 
 public class ControleRemoto implements Controlador {
-	//Atributos
+	//ATRIBUTOS
 	private int volume;
 	private boolean ligado;
 	private boolean tocando;
 	
-	//Métodos especiais 
+	//MÉTODOS ESPECIAIS
 	public ControleRemoto() { //Construtor
 		this.volume = 50;
 		this.ligado = false;
@@ -33,7 +33,9 @@ public class ControleRemoto implements Controlador {
 	private void setTocando(boolean tocando) {
 		this.tocando = tocando;
 	}
-
+	
+	
+	//MÉTODOS ABASTRATOS
 	@Override
 	public void ligar() {
 		this.setLigado(true);
